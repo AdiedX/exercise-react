@@ -1,0 +1,207 @@
+<testsuites name="jest tests" tests="14" failures="14" time="4.098">
+  <testsuite name="undefined" errors="0" failures="14" skipped="0" timestamp="2020-04-15T03:36:27" time="4.098" tests="14">
+    <testcase classname=" should create the Teams and Channels listing app which contains the teams" name=" should create the Teams and Channels listing app which contains the teams" time="0.03">
+      <failure>TypeError: Cannot read property &apos;innerHTML&apos; of undefined
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:20:52)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" teams and channel list should display first team by default along with required inputs and button" name=" teams and channel list should display first team by default along with required inputs and button" time="0.009">
+      <failure>Error: expect(received).toBeTruthy()
+
+Expected value to be truthy, instead received
+  null
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:28:20)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" teams and channel list should display first channel in team by default along with required buttons" name=" teams and channel list should display first channel in team by default along with required buttons" time="0.004">
+      <failure>Error: expect(received).toBeTruthy()
+
+Expected value to be truthy, instead received
+  null
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:40:23)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Team section should exist and add button should be disabled initially" name=" Add Team section should exist and add button should be disabled initially" time="0.005">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  true
+Received:
+  false
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:51:34)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Team button should not be enabled if data entered in input is empty or numeric" name=" Add Team button should not be enabled if data entered in input is empty or numeric" time="0.007">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  true
+Received:
+  false
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:60:34)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Team button should be enabled if data entered in input is correct and clicking on button should add it to the list of teams" name=" Add Team button should be enabled if data entered in input is correct and clicking on button should add it to the list of teams" time="0.006">
+      <failure>TypeError: Cannot read property &apos;innerHTML&apos; of undefined
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:76:23)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" it should display correct channels name along with remove button" name=" it should display correct channels name along with remove button" time="0.003">
+      <failure>TypeError: Cannot read property &apos;innerHTML&apos; of undefined
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:83:25)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Channel button should exist and should be disabled initially" name=" Add Channel button should exist and should be disabled initially" time="0.004">
+      <failure>TypeError: Cannot read property &apos;disabled&apos; of null
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:92:27)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Channel button should not be enabled if data entered in input is empty or numeric" name=" Add Channel button should not be enabled if data entered in input is empty or numeric" time="0.004">
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:148:40
+    at Object.batchedUpdates [as unstable_batchedUpdates] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/react-dom/cjs/react-dom.development.js:12406:14)
+    at actPolyfill (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/act-compat.js:26:21)
+    at Function.fireEvent.(anonymous function).args [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:98:21)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Add Channel button should be enabled if data entered in input is correct and clicking on button should add the channel to the existing list" name=" Add Channel button should be enabled if data entered in input is correct and clicking on button should add the channel to the existing list" time="0.005">
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:148:40
+    at Object.batchedUpdates [as unstable_batchedUpdates] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/react-dom/cjs/react-dom.development.js:12406:14)
+    at actPolyfill (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/act-compat.js:26:21)
+    at Function.fireEvent.(anonymous function).args [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:111:21)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on remove button should remove the channel from the list" name=" Clicking on remove button should remove the channel from the list" time="0.004">
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.assign (&lt;anonymous&gt;)
+    at Object.createEvent.(anonymous function) [as click] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:643:12)
+    at Function.fireEvent.(anonymous function) [as click] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:148:40
+    at Object.batchedUpdates [as unstable_batchedUpdates] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/react-dom/cjs/react-dom.development.js:12406:14)
+    at actPolyfill (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/act-compat.js:26:21)
+    at Function.fireEvent.(anonymous function).args [as click] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:124:21)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on sort button once list the channels in ascending order of names" name=" Clicking on sort button once list the channels in ascending order of names" time="0.003">
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:148:40
+    at Object.batchedUpdates [as unstable_batchedUpdates] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/react-dom/cjs/react-dom.development.js:12406:14)
+    at actPolyfill (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/act-compat.js:26:21)
+    at Function.fireEvent.(anonymous function).args [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt;.test (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:135:21)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on sort button twice list the channels in descending order of names" name=" Clicking on sort button twice list the channels in descending order of names" time="0.003">
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:148:40
+    at Object.batchedUpdates [as unstable_batchedUpdates] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/react-dom/cjs/react-dom.development.js:12406:14)
+    at actPolyfill (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/act-compat.js:26:21)
+    at Function.fireEvent.(anonymous function).args [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt;.it (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:151:21)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on sort button thrice list the channels according to creation order" name=" Clicking on sort button thrice list the channels according to creation order" time="0.006">
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.(anonymous function) [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:148:40
+    at Object.batchedUpdates [as unstable_batchedUpdates] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/react-dom/cjs/react-dom.development.js:12406:14)
+    at actPolyfill (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/act-compat.js:26:21)
+    at Function.fireEvent.(anonymous function).args [as input] (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt;.it (/Users/asivasa/Documents/Developer/node/notable_hr_test/src/App.test.js:168:21)
+    at Object.asyncFn (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/asivasa/Documents/Developer/node/notable_hr_test/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
